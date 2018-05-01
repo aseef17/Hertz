@@ -25,9 +25,9 @@ It has the following features
 ## Screenshots
 
 <p align="center">
-  <img src="/Screenshots/1.png" height="700" width="350"/>
-  <img src="/Screenshots/2.png" height="700" width="350"/>
-  <img src="/Screenshots/e.png" height="700" width="350"/>
+  <img src="/Screenshots/1.png" width="300"/>
+  <img src="/Screenshots/2.png" width="300"/>
+  <img src="/Screenshots/3.png" width="300"/>
 </p>
     
 ## Changelog
