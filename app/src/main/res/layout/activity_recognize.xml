@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <FrameLayout
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/close_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/ic_close" />
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:animateLayoutChanges="true"
+                android:background="@drawable/input_background"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="@string/start"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/volume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="75dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                tools:text="Time : Some secons \n Volume : 0.987654321" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/start"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunito_semibold"
+                android:text="Listening..."
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20dp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/result"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="16dp"
+                app:lottie_fileName="techno_penguin.json"
+                app:lottie_loop="true" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

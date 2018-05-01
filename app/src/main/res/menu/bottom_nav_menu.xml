@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_action_home"
+        android:icon="@mipmap/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/bottom_action_notification"
+        android:icon="@mipmap/ic_favourite"
+        android:title="Favourite" />
+    <item
+        android:id="@+id/bottom_action_account"
+        android:icon="@mipmap/ic_history"
+        android:title="Recent" />
+</menu>

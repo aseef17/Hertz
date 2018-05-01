@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "594244608611",
+    "firebase_url": "https://musicrecognition-3ce01.firebaseio.com",
+    "project_id": "musicrecognition-3ce01",
+    "storage_bucket": "musicrecognition-3ce01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594244608611:android:44884253e80b6a49",
+        "android_client_info": {
+          "package_name": "com.boilerplate.music.musicrecognition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594244608611-c4l3lbbu6kibgsjnl6sesir5et9q24p9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boilerplate.music.musicrecognition",
+            "certificate_hash": "10a7f900bc6fecb9f89c57a924bd0f02b080c452"
+          }
+        },
+        {
+          "client_id": "594244608611-enfngba97c72263f82tj7ohi2i0rtr35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhtAZeyHqrDlXF10l6bd03rN6e9xqH9XI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594244608611-enfngba97c72263f82tj7ohi2i0rtr35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
