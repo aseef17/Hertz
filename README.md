@@ -2,7 +2,7 @@
 
 Hertz is a music recognition application powered by ARC Clound
 
-<img src="/Screenshots/logo.png" align="left" height="95" width="95">
+<img src="/Screenshots/ic_launcher-web.png" align="left" height="95" width="95">
 
 ## Features
 
@@ -24,15 +24,10 @@ It has the following features
 
 ## Screenshots
 
-<img src="/Screenshots/1.png" align="left"
-width="400"
-    hspace="10" vspace="10">
-<img src="/Screenshots/2.png" align="center"
-width="400"
-    hspace="10" vspace="10">
-<img src="/Screenshots/3.png" align="left"
-width="400"
-    hspace="10" vspace="10">
+<p align="center">
+  <img src="/Screenshots/1.png" width="350"/>
+  <img src="/Screenshots/2.png" width="350"/>
+</p>
     
 ## Changelog
 
